@@ -66,6 +66,9 @@ with_oil	273.08
 with_conf	239.53
 all	221.39 ✅
 
+---
+
+
 ### 📊 Forecast Result (2025 H2)
 ```
 Month	Forecast YoY (%)	95% CI Lower	95% CI Upper
@@ -76,6 +79,10 @@ Month	Forecast YoY (%)	95% CI Lower	95% CI Upper
 2025-11	2.54	0.60	4.49
 2025-12	2.58	0.45	4.70
 ```
+
+---
+
+
 ### ⚠️ Limitations
 ```
 Model-Level
@@ -94,7 +101,11 @@ Confidence intervals widen significantly (high uncertainty)
 
 No rolling forecast or out-of-sample validation applied
 ```
-###🚀 Future Direction
+
+---
+
+
+### 🚀 Future Direction
 ```
 Dynamic Forecasting of Exogenous Variables
 
@@ -107,7 +118,7 @@ Feeding predicted exog paths into SARIMAX for full-scenario CPI forecasting
 
 Exploring joint modeling with Bayesian state space models or machine learning ensembles
 ```
-###📁 File Structure
+### 📁 File Structure
 
 ```
 ├── Using_SARIMAX_Forecast_CPI.ipynb   # Main notebook (analysis + modeling)
