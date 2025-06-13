@@ -66,7 +66,8 @@ with_oil	273.08
 with_conf	239.53
 all	221.39 ✅
 
-📊 Forecast Result (2025 H2)
+### 📊 Forecast Result (2025 H2)
+```
 Month	Forecast YoY (%)	95% CI Lower	95% CI Upper
 2025-07	2.47	1.81	3.13
 2025-08	2.58	1.42	3.74
@@ -74,8 +75,9 @@ Month	Forecast YoY (%)	95% CI Lower	95% CI Upper
 2025-10	2.55	0.81	4.28
 2025-11	2.54	0.60	4.49
 2025-12	2.58	0.45	4.70
-
-⚠️ Limitations
+```
+### ⚠️ Limitations
+```
 Model-Level
 Assumes linear relationships between inflation and exogenous variables
 
@@ -91,8 +93,9 @@ Only 4 variables used (misses fiscal policy, housing costs, etc.)
 Confidence intervals widen significantly (high uncertainty)
 
 No rolling forecast or out-of-sample validation applied
-
-🚀 Future Direction
+```
+###🚀 Future Direction
+```
 Dynamic Forecasting of Exogenous Variables
 
 Currently, the SARIMAX model assumes fixed or repeated exogenous inputs.
@@ -103,17 +106,13 @@ Building forecasting models for each exogenous variable (e.g., VAR, SARIMA, XGBo
 Feeding predicted exog paths into SARIMAX for full-scenario CPI forecasting
 
 Exploring joint modeling with Bayesian state space models or machine learning ensembles
+```
+###📁 File Structure
 
-📁 File Structure
-bash
-복사
-편집
+```
 ├── Using_SARIMAX_Forecast_CPI.ipynb   # Main notebook (analysis + modeling)
 ├── README.md                          # This file
-📚 Dependencies
-bash
-복사
-편집
-pip install pandas numpy matplotlib statsmodels fredapi
+```
+
 
 
